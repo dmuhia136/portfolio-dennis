@@ -2,7 +2,7 @@ import Image from 'next/image';
 
 function Hero() {
   return (
-    <container className="flex flex-row justify-between pt-10 pl-40">
+    <container className="flex flex-row justify-between pt-10 pl-40 w-full">
       {/* left hero */}
       <div className="flex flex-col space-y-5">
         <h1 className="text-left text-4xl font-bold ">Here is my portfolio</h1>
