@@ -2,7 +2,7 @@ import Image from 'next/image';
 
 function Projects() {
   return (
-    <div className="pt-10 ">
+    <div className="pt-10 pb-10">
       <h1 className="text-5xl m-auto font-bold place-items-center">Projects</h1>
       <div className="grid gap-2 grid-cols-2 pt-10">
         <div className=" place-items-center m-auto flex text-lg font-bold">
