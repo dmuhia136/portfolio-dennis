@@ -12,8 +12,8 @@ function NavBar() {
       className='rounded-full'
       alt="Dennis Njoroge Muhia"
     />
-      Dennis Muhia</div>
-      <div className='flex gap-5'>
+      </div>
+      <div className='flex gap-5 '>
         <a href='https://www.linkedin.com/in/dennis-muhia-2920b7226/' className='flex space-x-5 place-items-center pr-2 rounded-full bg-blue-700 text-white hover:bg-blue-500 cursor-pointer p-1 text-md font-normal '>
       <Image
       src="/linkedin.png"
