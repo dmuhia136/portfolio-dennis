@@ -3,25 +3,24 @@ import Accomplish from "../components/Accomplish";
 
 function Hero() {
   return (
-    <container className="flex flex-row justify-between pt-10 pl-40 w-full">
+    <container className="md:flex lg:flex-row justify-between pt-10 pl-40 w-full flex flex-col-reverse">
       {/* left hero */}
       <div className="flex flex-col space-y-5">
-        <h1 className="text-left text-4xl font-bold ">
+        <h1 className="md:text-left text-4xl font-bold sm:text-center">
           Hi,I am Dennis Muhia and here is my portfolio.
-          
         </h1>
-        <p className="w-1/3 font-itallic text-gray-300 text-xl ">
+        <p className=" font-itallic text-center text-gray-300 md:text-xl text-normal md:text-left">
           I am a fullstack developer working with various technologies to create
           beautiful websites and mobile applications. Here is a list of my
           techstack.
         </p>
-        <div className="flex gap-4">
+        <div className="md:flex md:gap-4 grid md:grid-cols-2 grid-cols-1 space-y-2">
           <Accomplish title="02" desc="Awards" />
           <Accomplish title="20+" desc="Clients" />
           <Accomplish title="5" desc="Years of experience" />
           <Accomplish title="70+" desc="Projects" />
         </div>
-        <div className="grid gap-2 lg:grid-cols-2 sm:grid-cols-1">
+        <div className="grid grid-cols-1 space-y-2  lg:grid-cols-2">
           <div className="">
             <span className="rounded bg-yellow-300 text-gray-800 p-2 ">1</span>{" "}
             Flutter for Mobile applications.
