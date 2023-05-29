@@ -1,6 +1,6 @@
 import Hero from "../components/Hero";
 import Projects from "../components/Projects";
-import Form from "../components/Form"
+
 
 
 export default function Home() {
@@ -11,7 +11,7 @@ export default function Home() {
       {/* Projects done */}
       <Projects />
       {/* Links to portfolio done*/}
-      <Form/>
+      
     </main>
   );
 }

@@ -1,5 +1,7 @@
 import Image from "next/image";
 import Accomplish from "../components/Accomplish";
+import Contact from '../components/Contact'
+
 
 function Hero() {
   return (
@@ -13,6 +15,7 @@ function Hero() {
           I am a fullstack developer working with various technologies to create
           beautiful websites and mobile applications. Here is a list of my
           techstack.
+          <Contact/>
         </p>
         <div className="md:grid md:grid-cols-2 lg:flex md:space-x-2 md:space-y-2 lg:space-x-2">
           <Accomplish title="02" desc="Awards" />
@@ -20,7 +23,7 @@ function Hero() {
           <Accomplish title="5" desc="Years of experience" />
           <Accomplish title="70+" desc="Projects" />
         </div>
-        <div className="grid grid-cols-1 gap-2  lg:grid-cols-2">
+        <div className="grid grid-cols-1 gap-2  md:grid-cols-2">
           <div className="">
             <span className="rounded bg-yellow-300 text-gray-800 p-2 ">1</span>{" "}
             Flutter for Mobile applications.
